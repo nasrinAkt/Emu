@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can check box",
+        "description": "",
+        "id": "this-is-a-feature-for-search-functionality;verify-user-can-check-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2562812800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \u003c\"URL\"\u003e em",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Emu_Signin.open_em(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4795743100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select baby from dropdown click on search button",
+            "match": {
+              "location": "Emu_Search.select_baby_from_dropdown_click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2301810700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "mouse hover on clothing",
+            "match": {
+              "location": "Emu_Search.mouse_hover_on_clothing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4423090900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click dresses",
+            "match": {
+              "location": "Emu_Search.click_dresses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4709510300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "scroll down and click on the children place check box",
+            "match": {
+              "location": "Emu_Search.scroll_down_and_click_on_the_children_place_check_box()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for search functionality",
+    "description": "",
+    "id": "this-is-a-feature-for-search-functionality",
+    "keyword": "Feature",
+    "uri": "Emu_Search.feature"
+  }
+]
